@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: https://github.com/tiagodolphine/backstage-tests-quarkus3
+  description: descr
+  annotations:
+    backstage.io/kubernetes-id: https://github.com/tiagodolphine/backstage-tests-quarkus3
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  system: system
+  lifecycle: production
+  owner: tiagodolphine
